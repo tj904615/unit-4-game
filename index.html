@@ -14,11 +14,15 @@
 
 </head>
 <body>
-    <div class="container">
-        <section id="header">
-            <h1><strong>CrystalCollector!</strong></h1>
-        </section>
-        <section id="main-container">
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            
+        <a class="navbar-brand2" href="index.html">
+            <button type="button2" class="btn btn-primary btn-lg">Crystal Collector</button>
+        </a>
+        </div>
+    </nav>
+        <div class="col-md-4">
             <p>You will be given a random number at the start of the game.</p>
             <br>
             <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
@@ -28,8 +32,23 @@
             <p>The value of each crystal is hidden from you until you click on it.</p>
             <br>
             <p>Each time the game starts , the game will change the value of each crystal.</p>
-        </section>
-    </div>
+        </div>
+   <div class="col-md-3">
+       <p id="randomNumGenerator">24</p>
+       <div class="col-md-2">
+           <p>"Wins"
+               <span id="win-count">0</span>
+           </p>
+           <p>
+               "Losses"
+               <span id="loss-count">0</span>
+           </p>
+       </div>
+       <div class="col-md-8">
+
+       </div>
+   
 <script src="game.js"></script> 
+</div>
 </body>
 </html>
